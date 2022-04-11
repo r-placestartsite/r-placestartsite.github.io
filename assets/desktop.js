@@ -54,6 +54,11 @@ document.querySelector(".my-computer").ondblclick = function () {
     window.open("https://discord.gg/eDUuJYhjZY")
 }
 
+document.querySelector(".my-computer2").ondblclick = function () {
+    setTimeout( ()=> { this.classList.remove("selected") }, 2 )
+    window.open("https://place-wiki.stefanocoding.me/wiki/Windows_Taskbar")
+}
+
 document.querySelector(".note-pad").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
     document.querySelector(".readme").style.display = "initial"
