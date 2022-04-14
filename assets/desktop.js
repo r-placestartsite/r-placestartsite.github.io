@@ -59,6 +59,11 @@ document.querySelector(".my-computer2").ondblclick = function () {
     window.open("https://place-wiki.stefanocoding.me/wiki/Windows_Taskbar")
 }
 
+document.querySelector(".my-computer3").ondblclick = function () {
+    setTimeout( ()=> { this.classList.remove("selected") }, 2 )
+    window.open("https://www.reddit.com/r/place/comments/u32wbh/im_making_rplace_in_minecraft_on_survival_heres/")
+}
+
 document.querySelector(".note-pad").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
     document.querySelector(".readme").style.display = "initial"
